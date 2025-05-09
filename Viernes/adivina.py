@@ -24,7 +24,7 @@ def adivinar(num_user, num_rdn, espera):
         
 def main():
     num_alea = random.randint(1,10)
-    resp = "s"
+    resp = "s"  
     while resp.lower() != 'n':
         num = input("Ingresa un número del 1 al 10: ")
         adivinar(int(num), num_alea)
